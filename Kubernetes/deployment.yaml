@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: zomato
-        image: praveengangala/zomato:32
+        image: praveengangala/zomato:33
         ports:
         - containerPort: 3000
