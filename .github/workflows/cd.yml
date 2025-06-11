@@ -32,5 +32,5 @@ jobs:
 
     - name: Deploy to EKS using kubectl in zomato namespace
       run: |
-        kubectl apply -f k8s/deployment.yaml --namespace=zomato
-        kubectl apply -f k8s/service.yaml --namespace=zomato
+        kubectl apply -f kubernetes/deployment.yaml --namespace=zomato
+        kubectl apply -f kubernetes/service.yaml --namespace=zomato
